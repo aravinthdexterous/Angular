@@ -25,11 +25,16 @@ import { CardPostComponent } from './card-post/card-post.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
-
-
+import { RequesterSidebarComponent } from './requester-sidebar/requester-sidebar.component';
 
 import { LayoutComponent } from './layout/layout.component';
+import { ProfileComponent } from './profile/profile.component';
+import { RequesterTableComponent } from './requester-table/requester-table.component';
+import { RequesterDetailsComponent } from './requester-details/requester-details.component';
+import { RequesterProfileComponent } from './requester-profile/requester-profile.component';
+import { RequesterAddrequestComponent } from './requester-addrequest/requester-addrequest.component';
 import { MoreCommentsComponent } from './more-comments/more-comments.component';
+import { ApproverSideBarComponent } from './approver-side-bar/approver-side-bar.component';
 
 const routes: Routes = [
   {path:'admin-sidebarcomponent' , component:AdminSidebarComponent},
@@ -51,7 +56,16 @@ const routes: Routes = [
   {path:'admin-edit-designation' , component:AdminEditDesignationComponent},
   {path:'admin-add-designation' , component:AdminAddDesignationComponent},
   {path:'admin-add-organisation' , component:AdminAddOrganizationComponent},
+  {path:'approver-sidebar' , component:ApproverSideBarComponent},
+  {path:'profile' , component:ProfileComponent},
+  {path:'requester-sidebar', component:RequesterSidebarComponent},
+  {path:'requester-table', component:RequesterTableComponent},
+  {path:'requester-details',component:RequesterDetailsComponent},
+  {path:'requester-profile', component:RequesterProfileComponent},
+  {path:'requester-addrequest', component:RequesterAddrequestComponent},
 
+  //{path:'' ,component: componentname}
+  {path:'' , component:RequesterTableComponent},
 
   {path:'footer' , component:FooterComponent},
   {path:'homepage' , component:HomePageComponent},
@@ -60,7 +74,7 @@ const routes: Routes = [
 
 
 
-  {path:'' , component:AdminOrganizationComponent}
+  {path:'' , component:AdminOrganizationComponent},
 
 ];
 

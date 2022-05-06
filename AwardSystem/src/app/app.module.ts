@@ -24,6 +24,15 @@ import { AdminAddDepartmentComponent } from './admin-add-department/admin-add-de
 import { AdminEditDesignationComponent } from './admin-edit-designation/admin-edit-designation.component';
 import { AdminAddDesignationComponent } from './admin-add-designation/admin-add-designation.component';
 import { AdminAddOrganizationComponent } from './admin-add-organization/admin-add-organization.component';
+import { ApproverSideBarComponent } from './approver-side-bar/approver-side-bar.component';
+import { ApproverlistComponent } from './approverlist/approverlist.component';
+import { ProfileComponent } from './profile/profile.component';
+import { RequesterTableComponent } from './requester-table/requester-table.component';
+import { RequesterSidebarComponent } from './requester-sidebar/requester-sidebar.component';
+import { RequesterDetailsComponent } from './requester-details/requester-details.component';
+import { RequesterProfileComponent } from './requester-profile/requester-profile.component';
+import { RequesterAddrequestComponent } from './requester-addrequest/requester-addrequest.component';
+
 import { FooterComponent } from './footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { MoreCommentsComponent } from './more-comments/more-comments.component';
@@ -54,6 +63,15 @@ import { CardPostComponent } from './card-post/card-post.component';
     AdminEditDesignationComponent,
     AdminAddDesignationComponent,
     AdminAddOrganizationComponent,
+    ApproverSideBarComponent,
+    ApproverlistComponent,
+    ProfileComponent,
+    RequesterTableComponent,
+    RequesterSidebarComponent,
+    RequesterDetailsComponent,
+    RequesterProfileComponent,
+    RequesterAddrequestComponent,
+ 
     FooterComponent,
     HomePageComponent,
     MoreCommentsComponent,
